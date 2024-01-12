@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #eaefd3;
+    color: #27233A;
+}
+
+main {
+    background-color: #27233A;
+    color: #DCC48E;
+    height: 100vh;
+    width: 100%;
+}
+
+.contenedor__puntos {
+    background-color: #DCC48E;
+    padding: 1rem 2rem;
+    border-radius: 1rem;
+    align-items: center;
+    color: #27233A;
+    font-weight: 600;
+    margin-bottom: 2rem;
+}
+
+.btn:hover {
+    background-color: #ffda84;
+}
+
+.contenedor__personaje {
+    border: 2px solid #DCC48E;
+    position: absolute;
+    border-radius: 0.5rem;
+    background-color: #27233A;
+    margin-top: 1rem;
+    color: #eaefd3;
+}
+
+.accion {
+    font-size: 2rem;
+    background-color: #EAEFD3;
+    border: 0;
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+
+.reiniciar{
+    background-color: #EAEFD3;
+    color: #27233A;
+    padding: .5rem 1.3rem;
+    margin-top: 1rem;
+    border-radius: .5rem;
+    font-weight: 600;
+    cursor: pointer;
+    letter-spacing: 1px;
+}
+
+.reiniciar:hover {
+    background-color: #ffda84;
+    color: white;
+    transition: .2s linear;
+}
+
+.contenedor__resultado {
+    display: none;
+    color: #EAEFD3;
+}
+
+.contenedor__resultado div span span {
+    background-color: #DCC48E;
+    color: #27233A;
+    border-radius: .3rem;
+    padding: .1rem .4rem;
+    font-weight: 600;
+}
+
+.primero, 
+h2 {
+    color: #EAEFD3;
+}
+
+#contador_computadora, 
+#contador_jugador{
+    font-size: 1.3rem;
+}
